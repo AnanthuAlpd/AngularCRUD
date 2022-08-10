@@ -7,8 +7,17 @@
     <span class="example-spacer"></span>
     <button mat-raised-button color="warn" (click)="openDialog()">Add Products</button>
   </mat-toolbar>
+  <mat-sidenav-container>
+    <mat-sidenav>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi enim debitis similique suscipit at, illo omnis recusandae, beatae est odit quisquam ipsum, ratione porro magni error autem dolorem. Deserunt, mollitia.
+    </mat-sidenav>
+    <mat-sidenav-content>
+      lores
+    </mat-sidenav-content>
+  </mat-sidenav-container>
 
  <div class="container">
+  
     <mat-form-field appearance="standard">
       <mat-label>Filter</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="product name or type etc.." #input>

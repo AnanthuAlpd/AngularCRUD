@@ -20,6 +20,7 @@ import {MatTableModule} from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import { MatSnackBarModule} from '@angular/material/snack-bar'
+import { MatSidenavModule} from '@angular/material/sidenav'
 
 import { ConfirmDialogComponent } from './dialog/confirm-dialog/confirm-dialog.component';
 //import { DeleteDialogComponent } from './dialog/delete-dialog/delete-dialog.component';
@@ -52,7 +53,8 @@ import { ConfirmDialogComponent } from './dialog/confirm-dialog/confirm-dialog.c
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
