@@ -1,0 +1,32 @@
+{
+  "productlist": [
+    {
+      "productName": "w",
+      "category": "Electronics",
+      "type": "Fresh",
+      "price": 13,
+      "comment": "aa",
+      "date": "2022-08-10T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "2",
+      "category": "Electronics",
+      "type": "Refurnished",
+      "price": 12,
+      "comment": "gyg",
+      "date": "2022-08-24T18:30:00.000Z",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
